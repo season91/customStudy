@@ -7,7 +7,6 @@
 node_modules/
 dist/
 
-.metadata/
 
 # Compiled Java class files
 *.class
@@ -57,3 +56,4 @@ Thumbs.db
 
 /.tern-project
 /.springBeans
+/.metadata
