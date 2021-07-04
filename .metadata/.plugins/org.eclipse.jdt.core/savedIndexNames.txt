@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+/Users/choayoung91/Documents/ayoung/wisenut/03.wisenut_workspace/.metadata/.plugins/org.eclipse.jdt.core
-3139785196.index
-1958154403.index
-2137618496.index
-3249186665.index
