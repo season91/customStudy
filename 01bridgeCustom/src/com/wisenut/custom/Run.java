@@ -16,6 +16,7 @@ public class Run {
 		
 		System.out.println("##matcher find " + pattern.matcher(col2).find());
 		
+		// 구현한 로직을 jar로 다시 말아서 서버에 배포한다.
 
 	}
 

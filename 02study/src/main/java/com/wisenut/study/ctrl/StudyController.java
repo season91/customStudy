@@ -1,4 +1,4 @@
-package com.wisenut.study.jdbcController;
+package com.wisenut.study.ctrl;
 
 import java.util.Locale;
 
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-public class JdbcController {
+public class StudyController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(JdbcController.class);
+	private static final Logger logger = LoggerFactory.getLogger(StudyController.class);
 	
 	@RequestMapping(value = "/cont", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("jdbc controller :", locale);
+		logger.info("study controller :", locale);
 		
 		System.out.println("### 시작  ");
 		
