@@ -15,7 +15,7 @@ public class StudyController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(StudyController.class);
 	
-	@RequestMapping(value = "/cont", method = RequestMethod.GET)
+	@RequestMapping(value = "/controller", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("study controller :", locale);
 		
