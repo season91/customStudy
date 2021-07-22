@@ -1,7 +1,9 @@
 package com.wisenut.study.service;
 
+import com.wisenut.study.model.AjaxResponse;
+
 public interface WordCloudService {
 	
-	public void words();
-
+	
+	public AjaxResponse getWord();
 }
