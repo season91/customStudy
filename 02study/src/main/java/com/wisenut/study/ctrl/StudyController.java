@@ -24,4 +24,12 @@ public class StudyController {
 		return "home";
 	}
 
+	@RequestMapping(value = "star", method = RequestMethod.GET)
+	public String star(Locale locale, Model model) {
+		logger.info("study controller star:", locale);
+		
+		System.out.println("별점주기");
+		
+		return "star";
+	}
 }
