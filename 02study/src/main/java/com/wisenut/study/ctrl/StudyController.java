@@ -1,5 +1,6 @@
 package com.wisenut.study.ctrl;
 
+import java.util.List;
 import java.util.Locale;
 
 import org.slf4j.Logger;
@@ -32,4 +33,5 @@ public class StudyController {
 		
 		return "star";
 	}
+	
 }

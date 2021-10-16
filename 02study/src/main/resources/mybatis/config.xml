@@ -15,5 +15,8 @@
    </typeAliases>
 
 <!-- 3. 작성쿼리 root등록을 위한 경로 설정. 맨아래에 있어야 한다.-->
+	<mappers>
+		<mapper resource="mybatis/mapper/autoComplete/autoCompleteMapper.xml"/>
+	</mappers>
 
 </configuration>

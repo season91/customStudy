@@ -9,6 +9,39 @@ public class AjaxResponse {
 	String errorMsg;
 	String redirectUrl;
 	InData indata;
-	OutData outdata;
+	String resMsg;
+	
+	public boolean isSuccess() {
+		return success;
+	}
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
+	public String getErrorMsg() {
+		return errorMsg;
+	}
+	public void setErrorMsg(String errorMsg) {
+		this.errorMsg = errorMsg;
+	}
+	public String getRedirectUrl() {
+		return redirectUrl;
+	}
+	public void setRedirectUrl(String redirectUrl) {
+		this.redirectUrl = redirectUrl;
+	}
+	public InData getIndata() {
+		return indata;
+	}
+	public void setIndata(InData indata) {
+		this.indata = indata;
+	}
+	public String getResMsg() {
+		return resMsg;
+	}
+	public void setResMsg(String resMsg) {
+		this.resMsg = resMsg;
+	}
+	
+	
 	
 }

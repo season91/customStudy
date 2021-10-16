@@ -8,4 +8,5 @@ public class OutData {
 	String answer;
 	String message;
 	
+	
 }
